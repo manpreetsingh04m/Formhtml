@@ -7,3 +7,47 @@ Challenge 4: When the form is submitted, get the user's response and add the sam
 -->
 
 <!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="result.html" method="get">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter name" name="name" id="name" class="input1" />
+      </div>
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          placeholder="enter username"
+          name="username"
+          id="username"
+          class="input1"
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          placeholder="enter password"
+          name="password"
+          id="password"
+          class="input1"
+        />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input type="email" name="email" class="input1" placeholder="enter email">
+      </div>
+      <div>
+        <input type="submit" class="submit" />
+      </div>
+    </form>
+  </body>
+</html>
